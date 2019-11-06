@@ -31,13 +31,14 @@ font-size: 25px;
 padding-left:12px !important;
 margin-right: 10% !important;
 color: tomato !important;
+
  }
  .nav-content{
    text-align: center !important;
-   padding-left: 10px;
+   padding-left: 2px;
    position: relative;
-   margin-left: 12px;
- 
+   margin-left: 2px;
+  font-size: 22px; 
  }
  .nv-bar{
   color: antiquewhite !important;
