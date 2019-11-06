@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './component/navbar';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+import Slider from './component/slider';
+import About from './component/about';
+import Contact from './component/contact';
+import Service from './component/services';
+import { Router, Route, Switch } from "react-router";
+  class App extends React.Component{
+    render(){
+      return(
+        <div className="main">
+          <NavBar />
+          <Slider />
+          <About />
+          <Service />
+          <Contact />
+         
+        </div>
+      )
+    }
+  }
 export default App;

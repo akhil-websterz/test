@@ -20,3 +20,60 @@
 .App-link {
   color: #09d3ac;
 }
+.navigate{
+  background-color:skyblue;
+  padding: 0%;
+  height: 60px;
+ }
+ .nav-style{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px; 
+padding-left:12px !important;
+margin-right: 10% !important;
+color: tomato !important;
+ }
+ .nav-content{
+   text-align: center !important;
+   padding-left: 10px;
+   position: relative;
+   margin-left: 12px;
+ 
+ }
+ .nv-bar{
+  color: antiquewhite !important;
+    position: relative;
+  margin-left: 160px;
+ }
+ .carous{
+height:500px !important;
+ }
+ body{
+   background-color: white;
+ }
+
+ .about-content{
+   color: lavenderblush;
+   margin-right:200px;
+ }
+ .about-img{
+   width:400px;
+   height:200px;
+
+ }
+
+
+ .inquire-form{
+color:white;
+ }
+ body{
+   background:darkgray;
+ }
+ .sect{
+
+  text-align: center !important;
+   color: skyblue !important;
+   margin-top: 18px;
+   margin-bottom: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+  }
